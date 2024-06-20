@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto !important;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #2b2a2a !important;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.section-shapka .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-shapka .container a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: .5s;
+}
+.section-shapka .container a:hover{
+    color: #63f4b7;
+    transition: .5s;
+}
