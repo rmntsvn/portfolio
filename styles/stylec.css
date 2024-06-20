@@ -161,3 +161,39 @@ body {
 .section-port .container .card p{
     font-size: 20px;
 }
+.section-port{
+    margin-bottom: 150px;
+}
+.section-carera .container h2{
+    color: #63f4b7;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.section-carera .container .car{
+    display: flex;
+    flex-direction: row
+}
+.section-carera .container .img img{
+    width: 100%;
+}
+.section-carera .container .car .txt .card{
+    margin-bottom: 20px;
+    background-color: #2b2a2a;
+    border:1px solid #63f4b7;
+    color: #ffffff;
+    margin-left: 30px;
+}
+.section-carera .container .car .txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-carera .container .img{
+    width: 80%;
+}
+.section-carera .container .car .txt .card p{
+    font-size: 20px;
+    margin-left: 10px;
+}
