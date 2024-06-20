@@ -197,3 +197,33 @@ body {
     font-size: 20px;
     margin-left: 10px;
 }
+footer .container .contakts .vk{
+    width: 40px;
+    height: 40px;
+    background: url(../img/092fe9c4-5bd1-43ca-894b-a6b4ab163ba2.webp) no-repeat center center;
+    margin-right: 20px;
+    background-size: contain;
+}
+footer .container .contakts .git{
+    width: 40px;
+    height: 40px;
+    background: url(../img/65d8b77f-786a-438a-9757-05165627f3d2.png) no-repeat center center;
+    margin-right: 20px;
+    background-size: contain;
+}
+footer .container .contakts .tg{
+    width: 40px;
+    height: 40px;
+    background: url(../img/cefab171-53d4-42bc-8e26-56b51ae4ac67.webp) no-repeat center center;
+    margin-right: 20px;
+    background-size: contain;
+}
+footer .container .contakts{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+footer .container hr{
+    border: 1px solid #63f4b7;
+}
