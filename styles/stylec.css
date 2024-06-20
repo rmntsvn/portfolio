@@ -227,3 +227,103 @@ footer .container .contakts{
 footer .container hr{
     border: 1px solid #63f4b7;
 }
+footer{
+    margin-bottom: 100px;
+}
+@media (max-width: 1200px) {
+    .container{
+        width: 992px;
+    }
+    .section-skills .container .img img{
+       margin-top: 20px;
+    }
+    .section-carera .container .car .img img{
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 420px) {
+    .container{
+        width: 320px;
+    }
+    .section-shapka .container a{
+        font-size: 10px;
+    }
+    .section-me .container h2{
+        font-size: 30px;
+    }
+    .section-me .container .card h3{
+        font-size: 16px;
+    }
+    .section-me .container .card p{
+        font-size: 13px;
+    }
+    .section-me .container .inf{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-me .container .one {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .section-skills .container .skils{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-skills .container .skils .img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .section-skills .container .skils .img img{
+        margin-left: 0;
+    }
+    .section-skills .container .card p {
+        font-size: 13px;
+    }
+    .section-skills .container h2{
+        font-size: 30px;
+    }
+    .section-port .container h2{
+        font-size: 30px;
+    }
+    .section-port .container .carts .card img{
+        width: 250px;
+        height: 200px;
+    }
+    .section-port .container .carts .card .naz a{
+        font-size: 16px;
+    }
+    .section-port .container .carts .card .naz p{
+        font-size: 16px;
+    }
+    .section-port .container .card p{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+    .section-port .container .carts .card{
+        margin-right: 0;
+    }
+    .section-carera .container h2{
+        font-size: 30px;
+    }
+    .section-carera .container .car{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-carera .container .car .img img{
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+    .section-carera .container .car .txt .card{
+        margin-left: 0;
+    }
+    .section-carera .container .car .txt .card p{
+        font-size: 13px;
+    }
+}
