@@ -31,3 +31,39 @@ body {
     color: #63f4b7;
     transition: .5s;
 }
+.section-me .container h2{
+    color: #63f4b7;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+.section-me .container .inf{
+    display: flex;
+    flex-direction: row;
+    margin-top:20px
+}
+.section-me .container .one img{
+    width: 80%;
+}
+.section-me .container .two{
+    width: 100%;
+}
+.section-me .container .two .card{
+    margin-bottom: 20px;
+    background-color: #2b2a2a;
+    border:1px solid #63f4b7;
+}
+.section-me .container .two .card h3{
+    color: #ffffff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.section-me .container .two .card p{
+    color: #ffffff;
+    margin-left: 10px;
+}
+.section-me{
+    margin-bottom: 150px;
+}
