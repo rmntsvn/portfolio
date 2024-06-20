@@ -47,7 +47,9 @@ body {
 }
 .section-me .container .two{
     width: 100%;
-    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .section-me .container .two .card{
     margin-bottom: 20px;
@@ -78,6 +80,7 @@ body {
 .section-skills .container .skils{
     display: flex;
     flex-direction: row;
+
 }
 .section-skills .container h2{
     color: #63f4b7;
@@ -95,8 +98,66 @@ body {
     font-size: 20px;
 }
 .section-skills .container .txt{
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .section-skills{
     margin-bottom: 150px;
+}
+
+.section-port .container h2{
+    color: #63f4b7;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.section-port .container .carts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.section-port .container .carts .card{
+    margin-bottom: 20px;
+    background-color: #2b2a2a;
+    border: none;
+    border: 1px solid #63f4b7;
+    color: #ffffff;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+.section-port .container .card .naz{
+    display: flex;
+    flex-direction: row;
+}
+.section-port .container .carts .card img{
+    width: 300px;
+    height: 200px;
+}
+.section-port .container .card .naz p{
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+.section-port .container .card .txt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.section-port .container .card .txt .naz a{
+    text-decoration: none;
+    color: #63f4b7;
+    font-size: 20px;
+}
+.section-port .container .card p{
+    font-size: 20px;
 }
